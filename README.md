@@ -11,6 +11,9 @@ A frontend clone of Spotify built using **HTML**, **CSS**, and **Vanilla JavaScr
 * Hover animations and transitions
 * Reusable JavaScript rendering function
 
+## Live Demo
+https://dipankar-dasdev.github.io/spotify-clone/
+
 ## Tech Stack
 
 * HTML5

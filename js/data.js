@@ -2,52 +2,52 @@ const albums = [
   {
     title: "After Hours",
     artist: "The Weeknd",
-    image: "assets/images/after-hours.png"
+    image: "assets/images/after-hours.PNG"
   },
   {
     title: "Starboy",
     artist: "The Weeknd",
-    image: "assets/images/starboy.png"
+    image: "assets/images/starboy.PNG"
   },
   {
     title: "Future Nostalgia",
     artist: "Dua Lipa",
-    image: "assets/images/future-nostalgia.png"
+    image: "assets/images/future-nostalgia.PNG"
   },
   {
     title: "÷ (Divide)",
     artist: "Ed Sheeran",
-    image: "assets/images/divide.png"
+    image: "assets/images/divide.PNG"
   },
   {
     title: "Harry's House",
     artist: "Harry Styles",
-    image: "assets/images/harrys-house.png"
+    image: "assets/images/harrys-house.PNG"
   },
   {
     title: "SOS",
     artist: "SZA",
-    image: "assets/images/sos.png"
+    image: "assets/images/sos.PNG"
   },
   {
     title: "DAMN.",
     artist: "Kendrick Lamar",
-    image: "assets/images/damn.png"
+    image: "assets/images/damn.PNG"
   },
   {
     title: "Justice",
     artist: "Justin Bieber",
-    image: "assets/images/justice.png"
+    image: "assets/images/justice.PNG"
   },
   {
     title: "Midnights",
     artist: "Taylor Swift",
-    image: "assets/images/midnights.png"
+    image: "assets/images/midnights.PNG"
   },
   {
     title: "Planet Her",
     artist: "Doja Cat",
-    image: "assets/images/planet-her.png"
+    image: "assets/images/planet-her.PNG"
   }
 ];
 
@@ -70,11 +70,11 @@ const artists = [
     },
     {
         name: "Dua Lipa",
-        image: "assets/images/artists/dua-lipa.jpg"
+        image: "assets/images/artists/dua-lipa.JPG"
     },
     {
         name: "Arijit Singh",
-        image: "assets/images/artists/arijit-singh.jpg"
+        image: "assets/images/artists/arijit-singh.JPG"
     },
     {
         name: "Karan Aujla",
@@ -82,7 +82,7 @@ const artists = [
     },
     {
         name: "AP Dhillon",
-        image: "assets/images/artists/ap-dhillon.jpg"
+        image: "assets/images/artists/ap-dhillon.JPG"
     },
     {
         name: "Travis Scott",
@@ -98,27 +98,27 @@ const trendingSongs = [
   {
     title: "Paint The Town Red",
     artist: "Doja Cat",
-    image: "assets/images/planet-her.png"
+    image: "assets/images/planet-her.PNG"
   },
   {
     title: "HUMBLE.",
     artist: "Kendrick Lamar",
-    image: "assets/images/damn.png"
+    image: "assets/images/damn.PNG"
   },
   {
     title: "Peaches",
     artist: "Justin Bieber",
-    image: "assets/images/justice.png"
+    image: "assets/images/justice.PNG"
   },
   {
     title: "Golden",
     artist: "Harry Styles",
-    image: "assets/images/harrys-house.png"
+    image: "assets/images/harrys-house.PNG"
   },
   {
     title: "Blinding Lights",
     artist: "The Weeknd",
-    image: "assets/images/after-hours.png"
+    image: "assets/images/after-hours.PNG"
   },
   {
     title: "Popular",
@@ -128,7 +128,7 @@ const trendingSongs = [
   {
     title: "Levitating",
     artist: "Dua Lipa",
-    image: "assets/images/future-nostalgia.png"
+    image: "assets/images/future-nostalgia.PNG"
   },
   {
     title: "Shape of You",
@@ -138,7 +138,7 @@ const trendingSongs = [
   {
     title: "Anti-Hero",
     artist: "Taylor Swift",
-    image: "assets/images/midnights.png"
+    image: "assets/images/midnights.PNG"
   },
   {
     title: "God's Plan",
@@ -151,12 +151,12 @@ const recentlyPlayed = [
   {
     title: "Justice",
     artist: "Justin Bieber",
-    image: "assets/images/justice.png"
+    image: "assets/images/justice.PNG"
   },
   {
     title: "Midnights",
     artist: "Taylor Swift",
-    image: "assets/images/midnights.png"
+    image: "assets/images/midnights.PNG"
   },
   {
     title: "Drake",
@@ -166,12 +166,12 @@ const recentlyPlayed = [
   {
     title: "Future Nostalgia",
     artist: "Dua Lipa",
-    image: "assets/images/future-nostalgia.png"
+    image: "assets/images/future-nostalgia.PNG"
   },
   {
     title: "Starboy",
     artist: "The Weeknd",
-    image: "assets/images/starboy.png"
+    image: "assets/images/starboy.PNG"
   },
   {
     title: "The Weeknd",
@@ -191,7 +191,7 @@ const recentlyPlayed = [
   {
     title: "SOS",
     artist: "SZA",
-    image: "assets/images/sos.png"
+    image: "assets/images/sos.PNG"
   },
   {
     title: "Travis Scott",
@@ -200,15 +200,15 @@ const recentlyPlayed = [
   }
 ];
 
-const sections = [
-    {
-        title: "Popular albums and singles",
-        type: "album",
-        items: albums
-    },
-    {
-        title: "Popular artists",
-        type: "artist",
-        items: artists
-    }
-];
+// const sections = [
+//     {
+//         title: "Popular albums and singles",
+//         type: "album",
+//         items: albums
+//     },
+//     {
+//         title: "Popular artists",
+//         type: "artist",
+//         items: artists
+//     }
+// ];
