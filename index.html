@@ -1,86 +1,137 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <header class="topbar">
-            <div class="topbar-left">
-                <div class="logo"><i class="bi bi-spotify"></i></div>
-                <div class="search-container">
-                    <div href="" class="home-logo"><i class="bi bi-house-door-fill"></i></div>
-                    <i class="bi bi-search"></i>
-                    <input type="text" class="search" placeholder="What do you want to play">
-                </div>
-            </div>
-            <div class="topbar-right">
-                <button class="premium">Explore Premium</button>
-                <div class="install-btn"><i class="bi bi-arrow-down-circle-fill"></i>
-                <a href="">Install App</a></div>
-                <a href="">Bell</a>
-                <a href="">share</a>
-                <a href="">Profile</a>
-            </div>
-        </header>
-        <main class="app">
-            <div class="sidebar">
-                <div class="sidebar-heading">
-                    <h2 class="title">Your Library</h2>
-                    <button class="add">+</button>
-                </div>
-                <div class="playlist-card">
-                    <h3>Create your first playlist</h3>
-                    <p>it's easy we'll help you</p>
-                    <button class="playlist-btns">Create Playlist</button>
-                </div>
-                <div class="podcast-card">
-                    <h3>Let's find some podcasts to follow</h3>
-                    <p>We'll keep you updated on new episodes</p>
-                    <button class="playlist-btns">Browse podcasts</button>
-                </div>
-            </div>
-            <section class="content">
-                <div class="filter">
-                    <button>All</button>
-                    <button>Music</button>
-                    <button>Podcasts</button>
-                </div>
-                <div class="music-row">
-                    <div class="music-row-heading">
-                        <h2>Popular albums and singles</h2>
-                        <button class="show-all">Show all</button>
-                    </div>
-                    <div class="music-cards" id="music-cards">
-                    </div>
-                    
-                    <div class="music-row-heading">
-                        <h2>Popular artists</h2>
-                        <button class="show-all">Show all</button>
-                    </div>
-                    <div class="artist-cards" id="artist-cards">
-                    </div>
-                    <div class="music-row-heading">
-                        <h2>Trending Songs</h2>
-                        <button class="show-all">Show all</button>
-                    </div>
-                    <div class="trending-cards" id="trending-cards">
-                    </div>
-                    <div class="music-row-heading">
-                        <h2>Recently played</h2>
-                        <button class="show-all">Show all</button>
-                    </div>
-                    <div class="recent-cards" id="recent-cards">
-                    </div>
-                </div>
-            </section>
-        </main>
-        <section class="playback"></section>
+  <head>
+    <title>Spotify Clone</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar-left">
+        <div class="logo"><i class="bi bi-spotify"></i></div>
+        <div class="home-logo">
+          <i class="bi bi-house-door-fill"></i>
+        </div>
+        <div class="search-container">
+          <i class="bi bi-search"></i>
+          <input
+            type="text"
+            class="search"
+            placeholder="What do you want to play"
+          />
+        </div>
+      </div>
+      <div class="topbar-right">
+        <button class="premium">Explore Premium</button>
+        <div class="install-btn">
+          <i class="bi bi-arrow-down-circle"></i> <a href="">Install App</a>
+        </div>
+        <button class="bell">
+          <i class="bi bi-bell"></i></a>
+        </button>
+        <button class="activity">
+          <i class="bi bi-people"></i>
+        </button>
+        <button class="profile">
+          <i class="bi bi-person-circle"></i>
+        </button>
+      </div>
+    </header>
+    <main class="app">
+      <div class="sidebar">
+        <div class="sidebar-heading">
+          <h2 class="title">Your Library</h2>
+          <button class="add"><i class="bi bi-plus-lg"></i></button>
+        </div>
+        <div class="playlist-card">
+          <h3>Create your first playlist</h3>
+          <p>it's easy we'll help you</p>
+          <button class="playlist-btns">Create Playlist</button>
+        </div>
+        <div class="podcast-card">
+          <h3>Let's find some podcasts to follow</h3>
+          <p>We'll keep you updated on new episodes</p>
+          <button class="playlist-btns">Browse podcasts</button>
+        </div>
+      </div>
+      <section class="content">
+        <div class="filter">
+          <button>All</button>
+          <button>Music</button>
+          <button>Podcasts</button>
+        </div>
+        <div class="music-row">
+          <div class="music-row-heading">
+            <h2>Popular albums and singles</h2>
+            <button class="show-all">Show all</button>
+          </div>
+          <div class="music-cards" id="music-cards"></div>
 
-        <script src="js/data.js"></script>
-        <script src="js/script.js"></script>
-    
-    </body>
+          <div class="music-row-heading">
+            <h2>Popular artists</h2>
+            <button class="show-all">Show all</button>
+          </div>
+          <div class="artist-cards" id="artist-cards"></div>
+          <div class="music-row-heading">
+            <h2>Trending Songs</h2>
+            <button class="show-all">Show all</button>
+          </div>
+          <div class="trending-cards" id="trending-cards"></div>
+          <div class="music-row-heading">
+            <h2>Recently played</h2>
+            <button class="show-all">Show all</button>
+          </div>
+          <div class="recent-cards" id="recent-cards"></div>
+        </div>
+      </section>
+    </main>
+    <section class="playback">
+      <div class="playback-left">
+        <img src="assets/images/default.jpeg" alt="" id="player-cover"/>
+        <div class="song-detail">
+            <h4 class="title" id="song-title">Not playing</h4>
+            <p class="artist" id="artist-name">select a song</p>
+        </div>
+        <i class="bi bi-plus-circle"></i>
+      </div>
+      <div class="playback-center">
+        <div class="controls">
+          <button><i class="bi bi-shuffle"></i></button>
+          <button><i class="bi bi-skip-start-fill"></i></button>
+          <button class="player-toggle-btn"><i class="bi bi-play-circle-fill"></i></button>
+          <!-- <button><i class="bi bi-pause-fill"></i></button> -->
+          <button><i class="bi bi-skip-end-fill"></i></button>
+          <button><i class="bi bi-repeat"></i></button>
+        </div>
+        <div class="progress">
+          <span class="current-time">0:00</span>
+
+          <input
+            type="range"
+            class="progress-bar"
+            min="0"
+            max="100"
+            value="0"
+          />
+
+          <span class="duration">0:00</span>
+        </div>
+      </div>
+      <div class="playback-right">
+        <i class="bi bi-list-ul"></i>
+        <i class="bi bi-speaker"></i>
+        <i class="bi bi-volume-up-fill"></i>
+        <input type="range" class="volume-bar" min="0" max="100" value="70" />
+        <i class="bi bi-fullscreen"></i>
+      </div>
+    </section>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
