@@ -510,11 +510,22 @@ body {
     height: 50px;
     border-radius: 5px;
 }
+.playback-left .bi-plus-circle{
+    opacity: 0.5;
+}
+
 .song-detail{
     display: flex;
     flex-direction: column;
     gap: 5px;
     font-size: 12px;
+}
+.song-detail h4:hover,
+.song-detail p:hover,
+.playback-left img:hover{
+    text-decoration: underline;
+    opacity: 1;
+    cursor: pointer;
 }
 .song-detail p{
     opacity: 0.5;
@@ -630,7 +641,9 @@ body {
     opacity: 0;
     transition: opacity .2s;
 }
-.controls button:hover, .playback-right i:hover{
+.controls button:hover, 
+.playback-right i:hover, 
+.playback-left i:hover{
     transform: scale(1.1);
     cursor: pointer;
     color: var(--spotify-text-white);
